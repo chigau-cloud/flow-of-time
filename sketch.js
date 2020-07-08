@@ -14,8 +14,9 @@ let fps;
 let noiseZ = 0;
 
 function setup() {
-  background(10);
+  
   createCanvas(windowWidth, windowHeight);  
+  background(10);
   colorMode(HSB, 100, 100);
   noStroke();
 
