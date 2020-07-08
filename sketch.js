@@ -15,7 +15,7 @@ let noiseZ = 0;
 
 function setup() {
   background(10);
-  canvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);  
   colorMode(HSB, 100, 100);
   noStroke();
 
